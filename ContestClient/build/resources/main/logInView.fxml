@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="425.0" prefWidth="690.0" style="-fx-background-color: #859ca8;" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LogInController">
+    <children>
+        <Button fx:id="autentificaBtn" layoutX="290.0" layoutY="246.0" mnemonicParsing="false" onMouseClicked="#handleAutentifica" text="Autentifica" />
+        <TextField fx:id="userField" layoutX="290.0" layoutY="144.0" />
+        <PasswordField fx:id="passField" layoutX="290.0" layoutY="195.0" />
+        <Label layoutX="216.0" layoutY="148.0" text="Utilizator" />
+        <Label layoutX="223.0" layoutY="199.0" text="Parola" />
+    </children>
+</AnchorPane>

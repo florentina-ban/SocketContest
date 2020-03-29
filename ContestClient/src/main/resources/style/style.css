@@ -1,0 +1,60 @@
+.table-view:row-selection .table-row-cell:filled:hover {
+    -fx-background-color: #859ca8;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-text-fill: -fx-text-inner-color;
+}
+#logAnchor{
+
+}
+#categAnchor{
+    -fx-background-color: rgba(0,0,0,0.2);
+}
+#probeAnchor{
+    -fx-background-color: rgba(0,0,0,0.2);
+}
+.button{
+    -fx-background-color: transparent;
+}
+.button{
+    -fx-font-size: 14px;
+    -fx-font-weight: 900;
+    -fx-cursor: pointer;
+}
+.button#addBtn{
+    -fx-background-image: url(rightArrow.png);
+    -fx-background-repeat: none;
+    -fx-background-size: 100px 60px;
+}
+.button#stergeBtn{
+    -fx-background-image: url(rightArrow.png);
+    -fx-background-repeat: none;
+    -fx-background-size: 100px 60px;
+}
+.button:hover{
+    -fx-background-color: #cbcfd1;
+}
+.button#logOutBtn{
+    -fx-border-color: black;
+}
+.button#logOut2{
+    -fx-border-color: black;
+}
+.text-field{
+    -fx-background-color: #cbcfd1;
+}
+#userField{
+    -fx-font-weight: 700;
+    -fx-text-fill: #18027a;
+}
+#passField{
+    -fx-text-fill: #18027a;
+}
+#errorTxt{
+    -fx-text-fill: red;
+}
+.label{
+    -fx-font-weight: bold;
+}
+.check-box{
+    -fx-font-weight: bold;
+}

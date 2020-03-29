@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'contest'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':contestModel')
+    compile project (':ContestServices')
+    compile project (':ContestPersistance')
+    compile project (':ContestNetworking')
+
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.16'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
